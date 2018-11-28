@@ -1,0 +1,56 @@
+/*note*/
+
+.my_box{
+background-color: cyan;
+border:2px dashed blue;
+
+padding: 20px;
+
+margin-top: 50px;
+
+width: 50%;
+height: 300px;
+
+background-image: url(BW1.jpg);
+background-size: contain;
+background-attachment: fixed;
+
+margin-left: auto;
+margin-right: auto;
+}
+
+form{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my_input_text{
+    width: 100%;
+    margin-bottom: 3px
+}
+
+    @media(max-width:500px){
+        
+        h1{
+            font-size: 50px;
+            color: red
+        }
+    }
+
+a:hover{
+    text-decoration-line: none;
+    color: blue;
+}
+
+a:focus{
+    color: yellow;
+    font-size: 40px
+}
+
+.my_color{
+    color: red
+}
+.my_font{
+    font-size: 32px
+}
