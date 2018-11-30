@@ -1,0 +1,33 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.jumbotron{
+    background-color:black;
+    color: #fff;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: red;
+    border-color: red
+}
+
+.my_image {
+    width: 350px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color:red;
+    border-color: red;
+}
+
+.col-md-4{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.embed-responsive-16by9 {
+    padding-bottom: 100%;
+}
