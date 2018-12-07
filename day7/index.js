@@ -103,5 +103,43 @@ while( step < numbers.length) {
 
 //while + if else
 
-var aa = 4 % 2;
-console.log(aa)
+//var aa = 4 % 2;
+//console.log(aa)
+
+var numbers_2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for(var a = 0 ; a < numbers_2.length ; a++){
+    console.log(numbers_2[a]);
+}
+
+
+var collections = [];
+
+console.log(collections);
+
+collections.push("test");
+
+console.log(collections);
+
+collections.push("test 2");
+
+console.log(collections);
+
+
+var myCollection = [];
+function addMe(){
+    var myText = document.getElementById("myText").value;
+    myCollection.push(myText);
+
+    document.getElementById("myResult").innerHTML = "";
+    for( var a = 0 ; a < myCollection.length ; a++ ) {
+        var currValue = myCollection[a] + "<br>";
+        var currResultValue = document.getElementById("myResult").innerHTML;
+        document.getElementById("myResult").innerHTML = currResultValue + currValue;
+    }
+
+    //document.getElementById("myResult").innerHTML = "This is Test only";
+}
+
+var test = document.getElementById("myResult").innerHTML;
+console.log(test);
+
